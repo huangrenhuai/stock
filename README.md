@@ -1,2 +1,1 @@
-# stock
-https://huangrh.shinyapps.io/stock
+# (stock)[https://huangrh.shinyapps.io/stock]
