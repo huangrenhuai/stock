@@ -56,7 +56,7 @@ shinyServer(function(input, output) {
     output$returnRate <- renderPrint({
         dat2 <- indexDat2(); 
         list(Mean = mean(dat2$ccYearReturn), STD = sd(dat2$ccYearReturn)) ;
-        })
+    })
     
     # table of the index data  
     output$table <- renderTable({
