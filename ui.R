@@ -20,7 +20,7 @@ shinyUI(fluidPage(
             textInput(inputId="stockId", label = "Input your stock ID for analyzing:", value = "VGHCX"),
             helpText(   a("Click Here to serch a stock ID",     href="http://finance.yahoo.com/lookup")),
             hr()
-        ),
+        ),   
         
         
         # Show a tabset that includes a plot, summary, and table view

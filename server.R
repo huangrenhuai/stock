@@ -1,6 +1,6 @@
 library(shiny);
 library(ggplot2);
-library(DBI);
+library(DBI);  
 
 # Define server logic for random distribution application
 shinyServer(function(input, output) {
